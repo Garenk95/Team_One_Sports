@@ -81,7 +81,7 @@ body{
     color: gold;
     transition:  all 0.3s ease 0s;
 }
-.cart_image{
+.cart_image a{
     display: flex;
     max-width: 30px;
     max-height: 30px; 
