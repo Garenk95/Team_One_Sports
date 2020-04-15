@@ -1,64 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+	<meta charset="UTG-8">
 	<title>Checkout</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="style_sheets/checkout_stylesheet.css">
 </head>
 
-<img src="logo.png" alt="Store logo" width="100px" align="left"><br>&nbsp;
-<br>
-<hr>
-<h3>
-	<a href="homepage.html">HOME</a> |
-	<a href="store.html">STORE</a> |
-	<input type="text" placeholder="Search.."> |
-	<a href="aboutus.html">ABOUT US</a> |
-	<a href="contactus.html">CONTACT US</a> |
-	<a href="login.html">Sign in</a> |
-	<a href="cart"><img src="cart.png" width="18px"> </a> </h3>
-<hr>
-<br>
+	<div class="top">
+		<img src="images/logo.png" alt="Store logo" width="100px" align="left"><br>&nbsp;
+		<br>
+		<hr>
+		<center>
+			<h3>
+				<a href="homepage.html">HOME</a> |
+				<a href="store.html">STORE</a> |
+				<input type="text" placeholder="Search.."> |
+				<a href="aboutus.html">ABOUT US</a> |
+				<a href="contactus.html">CONTACT US</a> |
+				<a href="login.html">Sign in</a> |
+				<a href="cart"><img src="images/cart.png" width="18px"> </a> </h3>
+		<hr>
+		</center>
+	</div>
 
 <body>
-	<form>
-		<fieldset>
-			<legend>
-				<p>Billing Address</p>
-				</legned>
-				<label for="fname">First Name</label>
-				<input type="text" name="firstname" required placeholder="Benson">
-
-				<label for="fname">Last Name</label>
-				<input type="text" name="lname" required placeholder="June">
-
-				<label for="adr">Address</label>
-				<input type="text" id="adr" name="address" required placeholder="1600 Holloway Ave">
-
-				<label for="city">City</label>
-				<input type="text" id="city" name="city" required placeholder="San Francisco">
-
-				<label for="state">State</label>
-				<input type="text" id="state" name="state" required placeholder="CA">
-
-				<label for="zip">Zip Code</label>
-				<input type="text" id="zip" name="zip" required placeholder="94132" maxlength="5">
-
-		</fieldset>
-
-		<fieldset>
-			<legend>Payment Information</legend>
-			<label for="ccnum">Credit Card Number</label>
-			<input type="text" name="ccnum" required>
-
-			<label for="nameoncc">Name On Card</label>
-			<input type="text" name="nameoncc" required>
-
-			<label for="ccvcode">CCV Code</label>
-			<input type="text" name="ccvcode" required>
-
-		</fieldset>
-		<input type="submit" value="Checkout">
-	</form>
+	<div class="container">
+		<div class="window">
+			<div class="order-info">
+				<div class="order-info-content">
+					<h2>Order Summary</h2>
+					<div class="line"></div>
+					<table class="order-table">
+						<tbody>
+							<tr>
+								<td><img src="images/Product_items/Nike_Air.jpg" class="full-width"></td>
+								<td>
+									<br> <span class="thin">Nike Shoes</span>
+									<br> Nike Air Max Imapct <br> <span class="thin small"> Color:Black/Black/White, Size:10<br><br></span>
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<div class="price">$71.99</div>
+								</td>
+							</tr>
+						</tbody>	
+					</table>
+					
+					<div class="line"></div>
+					<table class="order-table">
+						<tbody>
+							<tr>
+								<td><img src="images/Product_items/Warriors_Jerseys.webp" class="full-width"></td>
+								<td>
+									<br> <span class="thin">Golden State Warriors Jersey</span>
+									<br> Nike Stephen Curry Royal Golden State Warriors Swingman Badge Jersey <br> <span class="thin small"> Color:Blue, Size:L<br><br></span>
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<div class="price">$67.99</div>
+								</td>
+							</tr>
+						</tbody>	
+					</table>
+					
+					<div class="line"></div>
+					<table class="order-table">
+						<tbody>
+							<tr>
+								<td><img src="images/Product_items/Basketball_Short.webp" class="full-width"></td>
+								<td>
+									<br> <span class="thin">Basketball Short</span>
+									<br> Nike Dri-FIT DNA Basketball Shorts <br> <span class="thin small"> Color:Black, Size:L<br><br></span>
+								</td>
+							</tr>
+							
+							<tr>
+								<td>
+									<div class="price">$36.99</div>
+								</td>
+							</tr>
+						</tbody>	
+					</table>
+					
+					<div class="line"></div>
+					<div class="total">
+						<span style="float:left">
+							<div class="thin dense">Vat 19%</div>
+							<div class="thin dense">Delivery</div>
+							Total
+						</span>
+						<span style="float:right; text-align: right;">
+							<div class="thin dense">$33.63</div>
+							<div class="thin dense">$4.95</div>
+							$215.55
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="credit-info">
+				<div class="credit-info-content">
+				<h2>Billing Address</h2>
+				<br>
+					<table class="Name">
+					<tr>
+						<td>First Name
+							<input input class="input-field" required>
+						</td>
+						
+						<td>Last Name
+						<input input class="input-field" required>
+						</td>
+					</tr>
+					</table>
+					
+					Address
+					<input input class="input-field" required>
+					
+					<table class="billing">
+						<tr>
+						
+							<td>City
+								<input class="input-field" required>
+							</td>
+							<td>State
+								<input class="input-field" required>
+							</td>
+							<td>Zip Code
+								<input class="input-field" required maxlength="5">
+							</td>
+					</table>
+					<h2>Payment Information</h2>
+					<br>
+					Card Number
+					<input class="input-field"></input>
+					Name On Card
+					<input class="input-field"></input>
+					<table class="half-input-table">
+						<tr>
+							<td>MM 
+								<input class="input-field" name="ccvcode" required maxlength="2">
+							</td>
+							<td>YY
+								<input class="input-field" name="ccvcode" required maxlength="2">
+							</td>
+							<td>
+								CCV
+								<input class="input-field" required maxlength="3">
+							</td>
+						</tr>
+					</div>
+					</table>
+					<button class="pay-btn" type="submit">Checkout</button>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
-
 </html>
