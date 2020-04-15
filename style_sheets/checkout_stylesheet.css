@@ -95,8 +95,8 @@ h2{
 .line{
 	height: 1px;
 	width: 100%;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	background: #ddd;
 }
 
@@ -179,7 +179,6 @@ h2{
 	border-bottom-right-radius: 30px;
 	position: relative;
 }
-
 
 .credit-info-content{
 	margin-top: 10px;
