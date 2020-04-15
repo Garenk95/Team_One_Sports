@@ -29,14 +29,11 @@ body{
     font-size: 60px;
     font-weight: 600;  
 }
-#sports{
-    display: block ruby;
-}
 .middle_box{
     width: 50%;
     display: flex;
     float: left;
-    align-items: end;
+    align-items: center;
 }
 .menu_box{
     border: solid white;
@@ -60,7 +57,7 @@ body{
     display: flex;
     width: 25%;
     max-height: 100%;
-    align-items: end;
+    align-items: center;
 }
 .right_box div{
     float: none;
