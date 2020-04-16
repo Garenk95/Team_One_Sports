@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 header{
-    border: 5px solid white;
+    border: 5px solid black;
     display: flex;
-    background-color: white;
+    background-color: black;
     color: black;
     width: 100%;
     max-height: 125px;
@@ -26,7 +26,7 @@ header a{
 .header_left_box a {
     padding: 0;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .header_middle_box{
     display: inherit;
@@ -39,7 +39,7 @@ header a{
 .menu_box{
     display: flex;
     justify-content: center;
-    border:solid black;
+    border:solid white;
     height: 50px;   /* height of pill */
     border-radius: 50px;
     margin-top: 31.5px;
@@ -53,7 +53,7 @@ header a{
     padding-inline: 15px;
 }
 .menu_box a{
-    color: black;
+    color: white;
 }
 .menu_box a:hover{
     color: gold;
@@ -72,7 +72,7 @@ header a{
     font-size: 20px;
 }
 .header_right_box a{
-    color: black;
+    color: white;
 }
 .log_in_sign_up_box{
     height: 100%;

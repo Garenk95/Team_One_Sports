@@ -1,7 +1,8 @@
 body{
-    background-image: url(../images/black-white-background.png);
+    background-image: url(../images/baseball_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 
