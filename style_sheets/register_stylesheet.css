@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
 body{
 	margin: 0;
 	padding: 0;
@@ -5,32 +8,21 @@ body{
 }
 
 .wrap{
-	background: url(../images/login.jpg) no-repeat;
+	background: url(../images/checkout_bg.jpg) no-repeat;
 	background-size: cover;
 	height: 100vh;
 	background-position: center;
 }
-
-.wrap:after{
-	position: absolute;
-	content: '';
-	top:0;
-	left:0;
-	height: 100%;
-	width: 100%;
-	background: rgba(0,0,0,0.3);
-}
-
 .rg{
 	width: 300px;
 	padding: 40px;
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	text-align: center;
 	z-index:999;
-	background: rgba(255,255,255,0.04);
+	background: rgba(255,255,255,0.3);
 	box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
 }
 
@@ -41,7 +33,7 @@ body{
 	font-size:25px;
 	font-weight: 600;
 	margin: 0 0 35px 0;
-	font-family: Verdana;
+	font-family: "Montserrat";
 }
 
 .rg input[type = "text"],.rg input[type = "password"],.rg input[type= "email"],.rg input[type= "phone"]{
@@ -57,6 +49,7 @@ body{
 	color: black;
 	border-radius: 24px;
 	transition: 0.25s;
+	font-family: "Montserrat";
 }
 
 .rg input[type = "text"]:focus,.rg input[type = "password"]:focus,.rg input[type= "email"]:focus,.rg input[type= "phone"]:focus{
@@ -78,6 +71,7 @@ body{
 	border-radius: 24px;
 	transition: 0.25s;
 	cursor: pointer;
+	font-family: "Montserrat"
 }
 
 .rg input[type = "submit"]:hover{
@@ -88,12 +82,13 @@ body{
 .login{
 	text-align: center;
 	margin: 10px 0;
+	font-family: "Montserrat"
 }
 
 .login a{
 	color: #1F45FC;
 	font-size: 15px;
-	font-family: Verdana; 
+	font-family: "Montserrat"; 
 	text-decoration: none;
 }
 
@@ -105,12 +100,13 @@ body{
 .policy{
 	text-align: center;
 	margin: 10px 0;
+	font-family: "Montserrat";
 }
 
 .policy a{
 	color: #1F45FC;
 	font-size: 15px;
-	font-family: Verdana; 
+	font-family: "Montserrat"; 
 	text-decoration: none;
 }
 

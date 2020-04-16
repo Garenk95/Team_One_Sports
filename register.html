@@ -4,27 +4,65 @@
 <head>
 	<meta charset="utf-8">
 	<title>Team 1 Store Registration</title>
-	<link rel ="stylesheet" href="style_sheets/register_stylesheet.css">
-</head>
+	<link rel="stylesheet" href="style_sheets/register_stylesheet.css">
+	<link rel="stylesheet" href="style_sheets/header_box_cart_special_stylesheet.css" </head>
 
 <body>
-	<div class ="wrap">
+	<div class="wrap">
+		<div class="header_box">
+			<div class="left_box">
+				<div class="logo_box">
+					<a>Team</a>
+					<a>One</a>
+					<a>Sports</a>
+					<a>Apparel</a>
+				</div>
+			</div>
+			<div class="middle_box">
+				<div class="menu_box">
+					<nav>
+						<ul>
+							<li><a href="homepage.html">Home</a></li>
+							<li><a href="store.html">Store</a></li>
+							<li><a href="aboutus.html">About Us</a></li>
+							<li id="last_li_child"><a href="contactus.html">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="right_box">
+				<div id="search">
+					<a href="#search">Search</a>
+				</div>
+				<div id="log_in_sign_up">
+					<div id="log_in">
+						<a href="login.html">Log In</a>
+					</div>
+					<a href="register.html">Sign Up</a>
+				</div>
+				<div class="cart_image">
+					<a href="cart.html">
+						<img src="./images/cart.png">
+					</a>
+				</div>
+			</div>
+		</div>
 		<form class="rg" action="register.html" method="post">
-		<a href="homepage.html"><img src="images/logo.png" width="50px"></a>
-		<h3>Create account</h3>
+			<a href="homepage.html"><img src="images/logo.png" width="50px"></a>
+			<h3>Create account</h3>
 			<input type="text" name="user" placeholder="Usermame" required>
 			<input type="password" name="User_pass" placeholder="Enter password Here" required>
 			<input type="password" name="User_pass" placeholder="Enter re-password Here" required>
 			<input type="email" name="mail" placeholder="Enter email Here">
 			<input type="phone" name="mob_digits" placeholder="415*******" maxlength="10">
 			<input type="submit" name="submit" value="Create your account">
-			
-			<div class ="login">
-			Already have an account? <a href="login.html">Sign in</a>
+
+			<div class="login">
+				Already have an account? <a href="login.html">Sign in</a>
 			</div>
-			
-			<div class ="policy">
-			By creating an account you agree to our <a href="#">Terms & Privacy</a>
+
+			<div class="policy">
+				By creating an account you agree to our <a href="#">Terms & Privacy</a>
 			</div>
 		</form>
 	</div>
