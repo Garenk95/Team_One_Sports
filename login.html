@@ -5,26 +5,62 @@
 	<meta charset="utf-8">
 	<title>Team 1 Store Sign-In</title>
 	<link rel="stylesheet" href="style_sheets/login_stylesheet.css">
-</head>
+	<link rel="stylesheet" href="style_sheets/header_box_cart_special_stylesheet.css" </head>
 
 <body>
-	<div class="bg">
-	<form class="box" action="login.html" method="post">
-		<a href="homepage.html"> <img src="images/logo.png" width="100px"> </a>
-		<h3> Sign-In </h3>
-			<input type="text" name="" placeholder="Username">
-			<input type="password" name="" placeholder="Password">
-			<input type="submit" name="" value="Log In">
-			<div class="register">
-			Need Account?<a href="register.html">Create an Account</a>
+	<div class="header_box">
+		<div class="left_box">
+			<div class="logo_box">
+				<a>Team</a>
+				<a>One</a>
+				<a>Sports</a>
+				<a>Apparel</a>
 			</div>
+		</div>
+		<div class="middle_box">
+			<div class="menu_box">
+				<nav>
+					<ul>
+						<li><a href="homepage.html">Home</a></li>
+						<li><a href="store.html">Store</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li id="last_li_child"><a href="contactus.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="right_box">
+			<div id="search">
+				<a href="#search">Search</a>
+			</div>
+			<div id="log_in_sign_up">
+				<div id="log_in">
+					<a href="login.html">Log In</a>
+				</div>
+				<a href="register.html">Sign Up</a>
+			</div>
+			<div class="cart_image">
+				<a href="cart.html">
+					<img src="./images/cart.png">
+				</a>
+			</div>
+		</div>
+	</div>
+	<form class="box" action="login.html" method="post">
+		<h3> Sign-In </h3>
+		<input type="text" name="" placeholder="Username">
+		<input type="password" name="" placeholder="Password">
+		<input type="submit" name="" value="Log In">
+		<div class="register">
+			Need Account?<a href="register.html">Create an Account</a>
 	</form>
 	</div>
 	<hr>
-	<p style="text-align: center">
+	<p id="stupid_p_that_wont_behave">
 		<font size="-3">Copyright & Copy 2020 Team 1 Store. All rights reserved.|Team1.com
 		</font>
 	</p>
 	</hr>
 </body>
+
 </html>

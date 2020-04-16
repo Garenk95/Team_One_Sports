@@ -1,25 +1,15 @@
-body{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
-.bg{
-	background: url(../images/login.jpg) no-repeat;
+
+body, html{
+	height: 100%;
+	margin:0;
+	font-family: "Montserrat";
+	background: url(../images/checkout_bg.jpg) no-repeat;
 	background-size: cover;
-	height: 100vh;
 	background-position: center;
 }
 
-.bg:after{
-	position: absolute;
-	content: '';
-	top:0;
-	left:0;
-	height: 100%;
-	width: 100%;
-	background: rgba(0,0,0,0.3);
-}
 
 .box{
 	width: 300px;
@@ -30,12 +20,13 @@ body{
 	transform: translate(-50%,-50%);
 	text-align: center;
 	z-index:999;
-	background: rgba(255,255,255,0.04);
+	background: rgba(255,255,255,0.5);
 	box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	margin-top: 50px;
 }
 
 .box h3{
-	color: White;
+	color: black;
 	text-transform: uppercase;
 	font-size:33px;
 	font-weight: 600;
@@ -100,5 +91,16 @@ body{
 
 .register:hover a{
 	text-decoration: underline;
+}
+hr{
+	display: flex;
+	position: absolute;
+	bottom: 5px;
+}
+#stupid_p_that_wont_behave{
+	display: flex;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
 }
 
