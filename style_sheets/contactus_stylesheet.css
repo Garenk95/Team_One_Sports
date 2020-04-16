@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
 body{
 	background-image: url(../images/contact_us_background.jpg);
     background-size: cover;
@@ -14,17 +16,13 @@ body{
 	z-index:999;
 	box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
 }
-
-
-
 .box h3{
 	color: White;
-	font-size:35px;
-	font-weight: 500;
 	margin: 0 0 35px 0;
-	font-family: times;
+	font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 40px;
 }
-
 .box input[type = "text"],.box input[type = "text"]{
 	border: 0;
 	background: Gainsboro;
@@ -38,15 +36,15 @@ body{
 	color: black;
 	border-radius: 24px;
 	transition: 0.25s;
+	font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 20px;
 }
-
-
 .box input[type="text"]:focus,.box input[type ="text"]:focus{
 	width: 500px;
 	background: white;
 	border-color: #2ecc71;
 }	
-
 .box input[type = "submit"]{
 	border: 0;
 	background: #659EC7;
@@ -61,6 +59,9 @@ body{
 	border-radius: 24px;
 	transition: 0.25s;
 	cursor: pointer;
+	font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .box input[type = "submit"]:hover{
