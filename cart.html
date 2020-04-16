@@ -6,26 +6,47 @@
 	<title>Checkout</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="style_sheets/cart_stylesheet.css">
-</head>
-
-	<div class="top">
-		<img src="images/logo.png" alt="Store logo" width="100px" align="left"><br>&nbsp;
-		<br>
-		<hr>
-		<center>
-			<h3>
-				<a href="homepage.html">HOME</a> |
-				<a href="store.html">STORE</a> |
-				<input type="text" placeholder="Search.."> |
-				<a href="aboutus.html">ABOUT US</a> |
-				<a href="contactus.html">CONTACT US</a> |
-				<a href="login.html">Sign in</a> |
-				<a href="cart.html"><img src="images/cart.png" width="18px"> </a> </h3>
-		<hr>
-		</center>
-	</div>
+	<link rel="stylesheet" href="style_sheets/header_box_cart_special_stylesheet.css" </head>
 
 <body>
+	<div class="header_box">
+		<div class="left_box">
+			<div class="logo_box">
+				<a>Team</a>
+				<a>One</a>
+				<a>Sports</a>
+				<a>Apparel</a>
+			</div>
+		</div>
+		<div class="middle_box">
+			<div class="menu_box">
+				<nav>
+					<ul>
+						<li><a href="homepage.html">Home</a></li>
+						<li><a href="store.html">Store</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li id="last_li_child"><a href="contactus.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="right_box">
+			<div id="search">
+				<a href="#search">Search</a>
+			</div>
+			<div id="log_in_sign_up">
+				<div id="log_in">
+					<a href="login.html">Log In</a>
+				</div>
+				<a href="register.html">Sign Up</a>
+			</div>
+			<div class="cart_image">
+				<a href="cart.html">
+					<img src="./images/cart.png">
+				</a>
+			</div>
+		</div>
+	</div>
 	<div class="container">
 		<div class="window">
 			<div class="order-info">
@@ -41,34 +62,35 @@
 									<span class="thin small"> Color: Black/Black/White , Size:10<br><br></span>
 								</td>
 							</tr>
-							
+
 							<tr>
 								<td>
 									<div class="price">$71.99</div>
 								</td>
 							</tr>
-						</tbody>	
+						</tbody>
 					</table>
-					
+
 					<div class="line"></div>
 					<table class="order-table">
 						<tbody>
 							<tr>
 								<td><img src="images/Product_items/Warriors_Jerseys.webp" class="full-width"></td>
 								<td>
-									<br> <span class="thin"> Nike Stephen Curry Royal Golden State Warriors Swingman Badge Jersey</span><br>
+									<br> <span class="thin"> Nike Stephen Curry Royal Golden State Warriors Swingman
+										Badge Jersey</span><br>
 									<span class="thin small"> Color: Blue , Size:L<br><br></span>
 								</td>
 							</tr>
-							
+
 							<tr>
 								<td>
 									<div class="price">$67.99</div>
 								</td>
 							</tr>
-						</tbody>	
+						</tbody>
 					</table>
-					
+
 					<div class="line"></div>
 					<table class="order-table">
 						<tbody>
@@ -79,15 +101,15 @@
 									<span class="thin small"> Color: Black , Size:L<br><br></span>
 								</td>
 							</tr>
-							
+
 							<tr>
 								<td>
 									<div class="price">$36.99</div>
 								</td>
 							</tr>
-						</tbody>	
+						</tbody>
 					</table>
-					
+
 					<div class="line"></div>
 					<div class="total">
 						<span style="float:left">
@@ -101,19 +123,24 @@
 							$215.55
 						</span>
 					</div>
-					<table><tr><td>
-					<a href="checkout.html">
-					<button class="pay-btn" type="submit" href="checkout.html">Checkout</button></a>
-					</td></tr></table>
+					<table class="pay_btn_table">
+						<tr>
+							<td>
+								<a href="checkout.html">
+									<button class="pay-btn" type="submit" href="checkout.html">Checkout</button></a>
+							</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 		</div>
 	</div>
-<hr>
-	<p style="text-align: center">
+	<hr>
+	<p>
 		<font size="-3">Copyright & Copy 2020 Team 1 Store. All rights reserved.|Team1.com
 		</font>
 	</p>
-	</hr>	
+	</hr>
 </body>
+
 </html>
