@@ -2,110 +2,96 @@
 <html lang="en">
 
 <head>
-
         <meta charset="utf-8">
         <title> Team 1 Store Shop </title>
-        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
-        <link rel="stylesheet" type = "text/css" href="style_sheets/menu_stylesheet.css"> 
-        <link rel="stylesheet" type = "text/css" href="style_sheets/store_stylesheet.css"> 
-
-
-
-</head>
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link rel="stylesheet" type="text/css" href="style_sheets/header_box_dark_stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="style_sheets/store_stylesheet.css">
 </head>
 
-    <div class="top">
-        <img src="images/logo.png" alt="Store logo" width="100px" align="left"><br>&nbsp;
-        <br>
-        <hr>
-        <center>
-            <h3>
-                <a href="homepage.html">HOME</a> |
-                <a href="store.html">STORE</a> |
-                <input type="text" placeholder="Search.."> |
-                <a href="aboutus.html">ABOUT US</a> |
-                <a href="contactus.html">CONTACT US</a> |
-                <a href="login.html">Sign in</a> |
-                <a href="cart"><img src="images/cart.png" width="18px"> </a> </h3>
-        <hr>
-        </center>
-    </div>
-<marquee><img src="images/ShippingDis.gif"></marquee>
-<center>
-        <hr>
-        <h2>Shop by Sport</h2>
-        <hr>
-
-
-       
-                        <a href="product_pages/shop_nfl.html"><img
-                                        src="images/StoreFrontlogos/NFL.png" width="200px" ></a>
-
-                        <a href="product_pages/shop_basketball.html"><img
-                                        src="images/StoreFrontlogos/NBA.png" width="200px"></a>
-
-                        <a href="product_pages/shop_baseball.html"><img
-                                        src="images/StoreFrontlogos/MLB.png" width="200px"></a>
-
-                        <a href="product_pages/shop_hockey.html"><img
-                                        src="images/StoreFrontlogos/NHL.png" width="200px"></a>
-
-                        <a href="product_pages/shop_soccer.html"><img
-                                        src="images/StoreFrontlogos/Soccer.png" width="200px"></a>
-                       
-       
-        <hr>
-        <h2>Shop by brand</h2>
-
-
-       
-                         <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
-                                        src="images/StoreFrontlogos/Puma.png" width="200px"></a>
-
+<body>
+        <div class="header_box">
+                <div class="left_box">
+                        <div class="logo_box">
+                                <a>Team</a>
+                                <a>One</a>
+                                <a>Sports</a>
+                                <a>Apparel</a>
+                        </div>
+                </div>
+                <div class="middle_box">
+                        <div class="menu_box">
+                                <nav>
+                                        <ul>
+                                                <li><a href="homepage.html">Home</a></li>
+                                                <li><a href="store.html">Store</a></li>
+                                                <li><a href="aboutus.html">About Us</a></li>
+                                                <li id="last_li_child"><a href="contactus.html">Contact Us</a></li>
+                                        </ul>
+                                </nav>
+                        </div>
+                </div>
+                <div class="right_box">
+                        <div id="search">
+                                <a href="#search">Search</a>
+                        </div>
+                        <div id="log_in_sign_up">
+                                <div id="log_in">
+                                        <a href="login.html">Log In</a>
+                                </div>
+                                <a href="register.html">Sign Up</a>
+                        </div>
+                        <div class="cart_image">
+                                <a href="cart.html">
+                                        <img src="./images/cart.png">
+                                </a>
+                        </div>
+                </div>
+        </div>
+        <div class="flex_container_sport_brand">
+                <div class="shop_by_sport_container">
+                        <h2>Shop by Sport</h2>
+                        <a href="product_pages/shop_basketball.html"><img src="images/StoreFrontlogos/NBA.png"
+                                        width="200px"></a>
+                        <a href="product_pages/shop_nfl.html"><img src="images/StoreFrontlogos/NFL.png"
+                                        width="200px"></a>
+                        <a href="product_pages/shop_baseball.html"><img src="images/StoreFrontlogos/MLB.png"
+                                        width="200px"></a>
+                        <a href="product_pages/shop_hockey.html"><img src="images/StoreFrontlogos/NHL.png"
+                                        width="200px"></a>
+                        <a href="product_pages/shop_soccer.html"><img src="images/StoreFrontlogos/Soccer.png"
+                                        width="200px"></a>
+                </div>
+                <div class="shop_by_brand_container">
+                        <h2>Shop by Brand</h2>
                         <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
-                                        src="images/StoreFrontlogos/Nike.png" width="200px"></a>
-
+                                        src="images/StoreFrontlogos/Puma.png" width="200px"></a>
                         <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
                                         src="images/StoreFrontlogos/Adidas.png" width="200px"></a>
-
+                        <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
+                                        src="images/StoreFrontlogos/Nike.png" width="200px"></a>
                         <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
                                         src="images/StoreFrontlogos/NewEra.png" width="200px"></a>
-
-                                        <hr>
-
-        <h2>Shop by Item</h2>
-        <div class = "row">
-        <div class = "column">
-       
-                         <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
-                                        src="images/Product_items/Basketball_Short.jpg" width="200px"align = "center" alt = "Apparel"></a>
-                                        <p> Apparel</p>
-                                </div> 
-                                        
-         <div class = "column">                       
-                       <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
-                                        src="images/Product_items/Nike_Air.jpg" width="200px"align = "center" alt = "Footwear"></a>
-                                        <p> Footwear</p>
-                                </div> 
-
-          <div class = "column">                      
-                        <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
-                                        src="images/Product_items/Warriors_Jerseys.webp" width="200px"align = "center" alt = "Jerseys"></a>
-                                      <p> Jerseys</p>
-                                </div> 
-        <div class = "column">
-                        <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
-                                        src="images/Product_items/MLBCap.jpg" width="200px"align = "center" alt = "Hats"></a>
-                                        <p> Hats</p>
-                                </div> 
-        <div class = "column">
-                        <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
-                                        src="images/Product_items/Hydroflask.jpg" width="100px"align = "center" alt = "Accessories"></a>
-                                        <p> Accessories</p>
-                                </div> 
-</div>
-                        
-         
-</center>
+                        <a href="product_pages/shop_basketball.html"><img src="images/under-armour-logo.png"
+                                        width="200px"></a>
+                </div>
+        </div>
+        <div class="shop_by_item_container">
+                <h2>Shop by Item</h2>
+                <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
+                                src="images/Product_items/Basketball_Short.jpg" width="200px" align="center"
+                                alt="Apparel"></a>
+                <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
+                                src="images/Product_items/Nike_Air.jpg" width="200px" align="center" alt="Footwear"></a>
+                <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
+                                src="images/Product_items/Warriors_Jerseys.webp" width="200px" align="center"
+                                alt="Jerseys"></a>
+                <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
+                                src="images/Product_items/MLBCap.jpg" width="200px" align="center" alt="Hats"></a>
+                <a href="#product_pages/basketball/nba/shop_western_conference.html"><img
+                                src="images/Product_items/Hydroflask.jpg" width="100px" align="center"
+                                alt="Accessories"></a>
+        </div>
+</body>
 
 </html>

@@ -1,24 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 body{
-	background-color: #ffffff
+  background-color: #ffffff
 }
-img{
-	border-radius: 8px;
+*{
+  font-family: "Montserrat";
 }
-* {
-  box-sizing: border-box;
+.flex_container_sport_brand{
+  display: flex;
+  flex-wrap:nowrap;
+  width: 100%;
+  height: 100%;
+  margin-top: 250px;
+}
+.shop_by_sport_container{
+  border: solid black;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  border-radius: 30px;
+}
+.shop_by_sport_container img{
+  margin-inline: 20px;
+}
+.shop_by_brand_container{
+  border: solid;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  border-radius: 30px;
+}
+.shop_by_brand_container img{
+  margin-inline: 20px;
+  margin-bottom: 20px;
+}
+.shop_by_item_container{
+  border: solid blueviolet;
+  display: flex;
+  flex-wrap:nowrap;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 75px;
+  justify-content: space-evenly;
+}
+
+.shop_by_item_container img{
+  margin-inline: 15px;
+  
 }
 
 
-.column {
-  float: left;
-  width: 20.20%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}

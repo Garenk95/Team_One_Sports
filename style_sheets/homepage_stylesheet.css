@@ -5,7 +5,6 @@ body{
     background-image: url(../images/black-white-background.png);
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 .header_box{
     display:flex;
