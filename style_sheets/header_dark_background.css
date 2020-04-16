@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+header{
+    position: sticky;
+    top: 0;
+    border: 5px solid black;
+    display: flex;
+    background-color: black;
+    color: black;
+    width: 100%;
+    max-height: 125px;
+    flex-wrap:nowrap;
+    font-family: "Montserrat";
+}
+header a{
+    text-decoration: none;
+}
+.header_left_box{
+    display: inherit;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 100%;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 50px;
+}
+.header_left_box a {
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+.header_middle_box{
+    display: inherit;
+    width:50%;
+    height: 125px;
+    margin-top: 0;
+    justify-content: center;
+
+}
+.menu_box{
+    display: flex;
+    justify-content: center;
+    border:solid white;
+    height: 50px;   /* height of pill */
+    border-radius: 50px;
+    margin-top: 31.5px;
+    margin-bottom: 37.5px;
+}
+.menu_box ul{
+    padding-inline: 35px;
+}
+.menu_box li{
+    display: inline-block;
+    padding-inline: 15px;
+}
+.menu_box a{
+    color: white;
+}
+.menu_box a:hover{
+    color: gold;
+    transition:  all 0.3s ease 0s;
+}
+.header_right_box a:hover{
+    color: gold;
+    transition:  all 0.3s ease 0s; 
+}
+
+.header_right_box{
+    display: inherit;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 25%;
+    font-size: 20px;
+}
+.header_right_box a{
+    color: white;
+}
+.log_in_sign_up_box{
+    height: 100%;
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#search{
+    margin-top: 50.5px;
+}
+#cart_image{
+    margin-top: 50.5px;
+    display: flex;
+    width: 35px;
+    height: 35px;
+}
