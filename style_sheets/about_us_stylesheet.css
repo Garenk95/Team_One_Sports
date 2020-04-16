@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 body{
-    margin-top: 0px;
+    background-image: url(../images/about_us_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .about_us_body{
     font-family: "Montserrat";
