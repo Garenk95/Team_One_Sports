@@ -31,7 +31,7 @@ body, html{
 	font-size:33px;
 	font-weight: 600;
 	margin: 0 0 35px 0;
-	font-family: sans-serif;
+	font-family: "Montserrat";
 }
 
 .box input[type = "text"],.box input[type = "password"]{
@@ -47,6 +47,7 @@ body, html{
 	color: black;
 	border-radius: 24px;
 	transition: 0.25s;
+	font-family: "Montserrat";
 }
 
 
@@ -85,7 +86,7 @@ body, html{
 .register a{
 	color: #1F45FC;
 	font-size: 15px;
-	font-family: Verdana; 
+	font-family: "Montserrat"; 
 	text-decoration: none;
 }
 
