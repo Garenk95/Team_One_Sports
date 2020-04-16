@@ -1,14 +1,9 @@
 body{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;	
+	background-image: url(../images/contact_us_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;	
 }
-.bg{
-	background: url(../images/contact.jpg) no-repeat;
-	background-size: cover;
-	height: 100vh;
-	background-position: center;
-}
+
 
 .box{
 	width: 600px;
@@ -19,7 +14,6 @@ body{
 	transform: translate(-50%,0%);
 	text-align: center;
 	z-index:999;
-	background: rgba(255,255,255,0.04);
 	box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
 }
 
