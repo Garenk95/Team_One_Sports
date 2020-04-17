@@ -3,13 +3,14 @@
 body{
 	background-image: url(../images/contact_us_background.jpg);
     background-size: cover;
-    background-repeat: no-repeat;	
+	background-repeat: no-repeat;	
+	margin: 0;
 }
 .box{
 	width: 600px;
 	padding: 40px;
 	position: fixed;
-	top: 35%;
+	top: 20%;
 	left: 500px;
 	transform: translate(-50%,0%);
 	text-align: center;
@@ -26,7 +27,6 @@ body{
 .box input[type = "text"],.box input[type = "text"]{
 	border: 0;
 	background: Gainsboro;
-	display: inline;
 	margin: 20px auto;
 	text-align: center;
 	border: 2px solid #3498db;
@@ -39,6 +39,9 @@ body{
 	font-family: "Montserrat";
     font-weight: 400;
     font-size: 20px;
+}
+#message_box{
+	height: 150px;
 }
 .box input[type="text"]:focus,.box input[type ="text"]:focus{
 	width: 500px;
