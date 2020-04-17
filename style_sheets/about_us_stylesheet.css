@@ -4,24 +4,36 @@ body{
     background-image: url(../images/about_us_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
 }
 .about_us_body{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    width: 100%;
     font-family: "Montserrat";
     font-weight: 400;
     font-size: 20px;
-    color: black;
+    text-align: center;
+}
+.mission_statement_container{
+    background: rgba(255,255,255,0.5);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    padding:30px;
+}
+.about_us_container{
+    background: rgba(255,255,255,0.5);
+    box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+    padding:30px;
 }
 .about_us_body legend{
     font-size: 40px;
-    padding-bottom: 15px;
 }
 .mission_statement_text{
-    border: solid;
     width:500px;
-    margin-bottom: 15px;
+    margin-top: 30px;
 }
 .about_us_text{
-    border: solid;
+    margin-top: 30px;
     width: 500px;
-    padding: 15px;
 }
