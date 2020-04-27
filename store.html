@@ -7,6 +7,7 @@
         <meta name="viewport" content="width = device-width, initial-scale = 1.0">
         <link rel="stylesheet" type="text/css" href="style_sheets/header_dark_background.css">
         <link rel="stylesheet" type="text/css" href="style_sheets/store_stylesheet.css">
+
 </head>
 <header>
         <div class="header_left_box">
@@ -41,19 +42,22 @@
 </header>
 
 <body>
+        <!-- <script>
+                function handleFileSelect(evt) {
+                        //sessionStorage.setItem('league', evt)
+                        window.league = evt;
+                        window.location.href = `product_pages/shop_by_sport.html?league=${evt}`
+                }
+        </script> -->
+        <script src="store.js"></script>
         <div class="flex_container_sport_brand">
                 <div class="shop_by_sport_container">
                         <h2>Shop by Sport</h2>
-                        <a href="product_pages/shop_basketball.html"><img src="images/StoreFrontlogos/NBA.png"
-                                        width="200px"></a>
-                        <a href="product_pages/shop_nfl.html"><img src="images/StoreFrontlogos/NFL.png"
-                                        width="200px"></a>
-                        <a href="product_pages/shop_baseball.html"><img src="images/StoreFrontlogos/MLB.png"
-                                        width="200px"></a>
-                        <a href="product_pages/shop_hockey.html"><img src="images/StoreFrontlogos/NHL.png"
-                                        width="200px"></a>
-                        <a href="product_pages/shop_soccer.html"><img src="images/StoreFrontlogos/Soccer.png"
-                                        width="200px"></a>
+                        <a onclick="load_NBA()"><img src="images/StoreFrontlogos/NBA.png" width="200px"></a>
+                        <a onclick="load_NFL()"><img src=" images/StoreFrontlogos/NFL.png" width="200px"></a>
+                        <a onclick="load_MLB()"><img src="images/StoreFrontlogos/MLB.png" width="200px"></a>
+                        <a onclick="load_NHL()"><img src="images/StoreFrontlogos/NHL.png" width="200px"></a>
+                        <a onclick="load_SOCCER()"><img src="images/StoreFrontlogos/Soccer.png" width="200px"></a>
                 </div>
                 <div class="shop_by_brand_container">
                         <h2>Shop by Brand</h2>
