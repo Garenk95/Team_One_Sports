@@ -6,7 +6,7 @@
 	<title>Checkout</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="style_sheets/checkout_stylesheet.css">
-	<link rel="stylesheet" href="style_sheets/header_box_cart_special_stylesheet.css" </head>
+	<link rel="stylesheet" href="style_sheets/header_box_cart_special_stylesheet.css"> </head>
 
 <body>
 	<div class="header_box">
@@ -31,97 +31,26 @@
 			<div id="search">
 				<a href="#search">Search</a>
 			</div>
-			<div id="log_in_sign_up">
-				<div id="log_in">
-					<a href="login.html">Log In</a>
-				</div>
-				<a href="register.html">Sign Up</a>
-			</div>
 			<div class="cart_image">
 				<a href="cart.html">
-					<img src="./images/cart.png">
+					<img src="./images/cart.png" height="20px" width="20px">Cart<span>0</span>
 				</a>
 			</div>
 		</div>
 	</div>
 	<div class="container">
 		<div class="window">
-			<div class="order-info">
-				<div class="order-info-content">
-					<h2>Order Summary</h2>
-					<div class="line"></div>
-					<table class="order-table">
-						<tbody>
-							<tr>
-								<td><img src="images/Product_items/Nike_Air.jpg" class="full-width"></td>
-								<td>
-									<br> <span class="thin">Nike Air Max Imapct </span><br>
-									<span class="thin small"> Color: Black/Black/White , Size:10<br><br></span>
-								</td>
-							</tr>
-
-							<tr>
-								<td>
-									<div class="price">$71.99</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-
-					<div class="line"></div>
-					<table class="order-table">
-						<tbody>
-							<tr>
-								<td><img src="images/Product_items/Warriors_Jerseys.webp" class="full-width"></td>
-								<td>
-									<br> <span class="thin"> Nike Stephen Curry Royal Golden State Warriors Swingman
-										Badge Jersey</span><br>
-									<span class="thin small"> Color: Blue , Size:L<br><br></span>
-								</td>
-							</tr>
-
-							<tr>
-								<td>
-									<div class="price">$67.99</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-
-					<div class="line"></div>
-					<table class="order-table">
-						<tbody>
-							<tr>
-								<td><img src="images/Product_items/Basketball_Short.jpg" class="full-width"></td>
-								<td>
-									<br> <span class="thin">Nike Dri-FIT DNA Basketball Shorts</span><br>
-									<span class="thin small"> Color: Black , Size:L<br><br></span>
-								</td>
-							</tr>
-
-							<tr>
-								<td>
-									<div class="price">$36.99</div>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-
-					<div class="line"></div>
-					<div class="total">
-						<span style="float:left">
-							<div class="thin dense">Vat 19%</div>
-							<div class="thin dense">Delivery</div>
-							Total
-						</span>
-						<span style="float:right; text-align: right;">
-							<div class="thin dense">$33.63</div>
-							<div class="thin dense">$4.95</div>
-							$215.55
-						</span>
-					</div>
+			<div class="products-container">
+				<div class="product-header">
+					<h5 class="product-title">Product</h5>
+					<h5 class="quantity">Quantity</h5>
+					<h5 class="price">Price</h5>
+				</div>
+				<div class="products">
+		
 				</div>
 			</div>
+			
 			<div class="credit-info">
 				<div class="credit-info-content">
 					<h2>Billing Address</h2>
@@ -181,11 +110,14 @@
 	</div>
 	</div>
 	<hr>
-	<p style="text-align: center">
-		<font size="-3">Copyright & Copy 2020 Team 1 Store. All rights reserved.|Team1.com
-		</font>
-	</p>
-	</hr>
+	
+	<script src="cart.js"></script>
 </body>
-
+<footer>
+	<div style="position: relative">
+		<p style="position: fixed; bottom: 0; width:100%; text-align:left">
+			<font size="-3">Copyright & Copy 2020 Team 1 Store. All rights reserved.|Team1.com</font>
+		</p>
+	</div>
+</footer>
 </html>
