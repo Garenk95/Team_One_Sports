@@ -32,15 +32,15 @@
     border: solid white;
     height: 50px;
     border-radius: 50px;
-    margin-inline: auto;
+    margin: auto;
     padding-bottom: 15px;
 }
 .middle_box ul{
-    padding-inline: 35px;
+    padding: 35px;
 }
 .middle_box li{
     display: inline-block;
-    padding-inline: 15px;
+    padding: 15px;
     border-right: 1px solid white;
 }
 #last_li_child{
