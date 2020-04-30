@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
+html{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
 .header_box{
     display:flex;
     float: left;
@@ -32,16 +38,16 @@
     border: solid black;
     height: 50px;
     border-radius: 50px;
-    margin-inline: auto;
+    margin: auto;
     padding-bottom: 15px;
 }
 .middle_box ul{
-    padding-inline: 35px;
+    padding: 5px;
 }
 .middle_box li{
     display: inline-block;
-    padding-inline: 15px;
     border-right: 1px solid black;
+	border:none;
 }
 #last_li_child{
     border-right: none;
