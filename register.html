@@ -6,6 +6,7 @@
 	<title>Team 1 Store Registration</title>
 	<link rel="stylesheet" href="style_sheets/register_stylesheet.css">
 	<link rel="stylesheet" href="style_sheets/header_light_background.css">
+	<script src="register.js"></script>
 </head>
 <header>
 	<div class="header_left_box">
@@ -41,14 +42,14 @@
 
 <body>
 	<div class="wrap">
-		<form class="rg" action="register.html" method="post">
+		<form class="rg" action="javascript:test()" method="post">
 			<a href="homepage.html"><img src="images/team1black.png" width="50px"></a>
 			<h3>Create account</h3>
-			<input type="text" name="user" placeholder="Username" required>
-			<input type="password" name="User_pass" placeholder="Enter password Here" required>
-			<input type="password" name="User_pass" placeholder="Enter re-password Here" required>
-			<input type="email" name="mail" placeholder="Enter email Here">
-			<input type="phone" name="mob_digits" placeholder="415*******" maxlength="10">
+			<input id="username" type="text" name="user" placeholder="Username" required>
+			<input id="password" type="password" name="User_pass" placeholder="Enter password Here" required>
+			<input id="confirm_password" type="password" name="User_pass" placeholder="Enter re-password Here" required>
+			<input id="email" type="email" name="mail" placeholder="Enter email Here">
+			<input id="phone_number" type="phone" name="mob_digits" placeholder="415*******" maxlength="10">
 			<input type="submit" name="submit" value="Create your account">
 
 			<div class="login">
