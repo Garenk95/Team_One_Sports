@@ -10,17 +10,13 @@ function test() {
     if (passwordsMatch == true) {
         console.log("passwords match");
         let userData = { username: username, password: password, email: email, phone: phone };
-
-        localStorage.setItem(email, JSON.stringify(userData));
-        console.log(userData);
+        localStorage.setItem(username, JSON.stringify(userData));
         window.location.href = `homepage.html`;
     } else {
         //clear password fields
         //instruct user to re-enter passwords
         console.log("passwords do not match");
     }
-
-
 
 }
 

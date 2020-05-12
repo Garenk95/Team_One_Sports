@@ -7,10 +7,14 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "user" && password === "web_dev") {
+    var userData = JSON.parse(localStorage.getItem(username));
+    console.log(userData);
+
+
+    if (username === userData.username && password === userData.password) {
         alert("You have successfully logged in.");
         location.assign("store.html");
     } else {
         loginErrorMsg.style.opacity = 1;
     }
-})
+});
