@@ -7,7 +7,7 @@ function test() {
     phone = document.getElementById("phone_number").value;
 
     //make sure passwords match
-    passwordsMatch = validatePasswords(password, confirm_pass);
+    let passwordsMatch = validatePasswords(password, confirm_pass);
     if (passwordsMatch == true) {
         console.log("PASSWORDS MATCH!!!!!!!");
         var myHeaders = new Headers();
@@ -21,18 +21,13 @@ function test() {
             .then(response => response.text())
             .then(result => console.log(result))
             .catch(error => console.log('error', error));
-
-        let userData = { username: username, password: password, email: email, phone: phone };
-        localStorage.setItem(username, JSON.stringify(userData));
         window.location.href = `homepage.html`;
     } else {
         //clear password fields
         //instruct user to re-enter passwords
         console.log("passwords do not match");
     }
-
 }
-
 function validatePasswords(password_1, password_2) {
     if (password_1 == password_2) {
         return true;
