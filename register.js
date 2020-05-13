@@ -1,3 +1,4 @@
+
 function test() {
     username = document.getElementById("username").value;
     password = document.getElementById("password").value;
@@ -8,7 +9,19 @@ function test() {
     //make sure passwords match
     passwordsMatch = validatePasswords(password, confirm_pass);
     if (passwordsMatch == true) {
-        console.log("passwords match");
+        console.log("PASSWORDS MATCH!!!!!!!");
+        var myHeaders = new Headers();
+        myHeaders.append("Access-Control-Allow-Origin", "*");
+        var requestOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            redirect: 'follow'
+        };
+        fetch(`http://localhost:5000/signUp/${username}/${password}/${email}/${phone}`, requestOptions)
+            .then(response => response.text())
+            .then(result => console.log(result))
+            .catch(error => console.log('error', error));
+
         let userData = { username: username, password: password, email: email, phone: phone };
         localStorage.setItem(username, JSON.stringify(userData));
         window.location.href = `homepage.html`;

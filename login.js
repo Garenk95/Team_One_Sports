@@ -7,14 +7,18 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    var userData = JSON.parse(localStorage.getItem(username));
-    console.log(userData);
+    var requestOptions = {
+        method: 'GET',
+        redirect: 'follow'
+    };
 
+    fetch(`http://localhost:5000/login/${username}/${password}`, requestOptions)
+        .then(response => response.text())
+        .then(result => {
+            //parse response
+            //save id response to local storage if successful
+            //and redirect to homepage
+        })
 
-    if (username === userData.username && password === userData.password) {
-        alert("You have successfully logged in.");
-        location.assign("store.html");
-    } else {
-        loginErrorMsg.style.opacity = 1;
-    }
+        .catch(error => console.log('error', error));
 });
