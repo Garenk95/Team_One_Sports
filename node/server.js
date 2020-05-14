@@ -58,8 +58,6 @@ app.get(`/login/:username/:password`, (req, res) => {
     }
 });
 app.get(`/activeSession/:userID`, (req, res) => {
-    console.log("we in this bitch");
-    console.log(database[req.params.userID - 1]);
     res.send(database[req.params.userID - 1]);
 });
 

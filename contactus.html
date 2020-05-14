@@ -6,6 +6,7 @@
 	<title>Contact us|Team 1 Store</title>
 	<link rel="stylesheet" href="style_sheets/contactus_stylesheet.css">
 	<link rel="stylesheet" href="style_sheets/header_light_background.css">
+	<script src="session.js"></script>
 </head>
 <header>
 	<div class="header_left_box">
@@ -24,12 +25,10 @@
 		</div>
 	</div>
 	<div class="header_right_box">
-		<div id="search">
-			<a href="#search">Search</a>
-		</div>
 		<div class="log_in_sign_up_box">
-			<a href="login.html">Log In</a>
-			<a href="register.html">Sign Up</a>
+			<script>isSessionActive();</script>
+			<a id="header_log_in_button" href="login.html">Log In</a>
+			<a id="header_sign_up_button" onclick="javascript:signUpOrLogOut()">Sign Up</a>
 		</div>
 		<div>
 			<a id="cart_image" href="cart.html">
