@@ -57,6 +57,10 @@ app.get(`/login/:username/:password`, (req, res) => {
         res.send("0");
     }
 });
+app.get(`/activeSession/:userID`, (req, res) => {
+    console.log("we in this bitch");
+    console.log(database[req.params.userID - 1]);
+    res.send(database[req.params.userID - 1]);
+});
 
-
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
+app.listen(port, () => console.log(`app listening at http://localhost:${port}`));

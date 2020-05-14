@@ -9,8 +9,6 @@ function test() {
     //make sure passwords match
     let passwordsMatch = validatePasswords(password, confirm_pass);
     if (passwordsMatch == true) {
-        //alert("PASSWORDS MATCH!!!!!!!");
-        alert(`sending username: ${username}'s new account to the server!`);
         var myHeaders = new Headers();
         myHeaders.append("Access-Control-Allow-Origin", "*");
         var requestOptions = {
@@ -20,6 +18,7 @@ function test() {
         };
         fetch(`http://localhost:5000/signUp/${username}/${password}/${email}/${phone}`, requestOptions)
             .then(response => {
+                alert("You will now be redirected to the homepage. \nThank you for signing up with Team 1 Sports!");
                 window.location.href = `homepage.html`;
             })
             .catch(error => alert("Unable to communicate to server"));

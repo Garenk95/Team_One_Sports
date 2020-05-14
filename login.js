@@ -18,10 +18,12 @@ loginButton.addEventListener("click", (e) => {
             var res = parseInt(result);
             if (res >= 1) {
                 //logged in worked
-                console.log("You have successfully logged in!");
+                //console.log("You have successfully logged in!");
                 window.sessionStorage.setItem("userID", res.toString());
+                window.location.href = `homepage.html`;
             } else {
                 //logged in failed
+                alert("Incorrect username or password.\nPlease try again.");
                 console.log("Log in has failed, please try again");
             }
             //parse response
