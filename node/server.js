@@ -47,12 +47,14 @@ app.get(`/login/:username/:password`, (req, res) => {
         return usernameMatches && passwordMatches;
     });
     if (loggedIn) {
-        console.log(`fuckfuckfuck `, loggedIn.id);
+        //if log in was successful, return the id of user
+        console.log(loggedIn.id);
         res.send(loggedIn.id.toString());
     }
     else {
-        console.log(false);
-        res.send(false);
+        //if log in failed, return 0 as the ID of the user
+        console.log("login has failed");
+        res.send("0");
     }
 });
 

@@ -9,7 +9,8 @@ function test() {
     //make sure passwords match
     let passwordsMatch = validatePasswords(password, confirm_pass);
     if (passwordsMatch == true) {
-        console.log("PASSWORDS MATCH!!!!!!!");
+        //alert("PASSWORDS MATCH!!!!!!!");
+        alert(`sending username: ${username}'s new account to the server!`);
         var myHeaders = new Headers();
         myHeaders.append("Access-Control-Allow-Origin", "*");
         var requestOptions = {
@@ -18,10 +19,10 @@ function test() {
             redirect: 'follow'
         };
         fetch(`http://localhost:5000/signUp/${username}/${password}/${email}/${phone}`, requestOptions)
-            .then(response => response.text())
-            .then(result => console.log(result))
-            .catch(error => console.log('error', error));
-        window.location.href = `homepage.html`;
+            .then(response => {
+                window.location.href = `homepage.html`;
+            })
+            .catch(error => alert("Unable to communicate to server"));
     } else {
         //clear password fields
         //instruct user to re-enter passwords
@@ -29,7 +30,7 @@ function test() {
     }
 }
 function validatePasswords(password_1, password_2) {
-    if (password_1 == password_2) {
+    if (password_1 === password_2) {
         return true;
     } else {
         return false;
