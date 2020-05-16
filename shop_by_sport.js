@@ -14,6 +14,7 @@ function load_league() {
     if (league === "nfl") {
         //load nfl page
         create_NFL();
+
     }
     if (league === "mlb") {
         //load mlb page
@@ -39,40 +40,75 @@ function create_NFL() {
     document.getElementById("conference_one_logo").src = "../images/team_logos_NFL/NFC.png"; 
     document.getElementById("conference_two_logo").src = "../images/team_logos_NFL/AFC.png";
 
-    //Changes individual team logos left side 
-    document.getElementById("team1_logo").src = "../images/team_logos_NFL/AFC_Teams/broncos.png";
-    document.getElementById("team2_logo").src = "../images/team_logos_NFL/AFC_Teams/chargers.png";
-    document.getElementById("team3_logo").src = "../images/team_logos_NFL/AFC_Teams/browns.png";
-    document.getElementById("team4_logo").src = "../images/team_logos_NFL/AFC_Teams/bills.png";
-    document.getElementById("team5_logo").src = "../images/team_logos_NFL/AFC_Teams/chiefs.png";
-    document.getElementById("team6_logo").src = "../images/team_logos_NFL/AFC_Teams/colts.png";
-    document.getElementById("team7_logo").src = "../images/team_logos_NFL/AFC_Teams/dolphins.png";
-    document.getElementById("team8_logo").src = "../images/team_logos_NFL/AFC_Teams/jaguars.png";
-    document.getElementById("team9_logo").src = "../images/team_logos_NFL/AFC_Teams/jets.png";
-    document.getElementById("team10_logo").src = "../images/team_logos_NFL/AFC_Teams/patriots.png";
-    document.getElementById("team11_logo").src = "../images/team_logos_NFL/AFC_Teams/raiders.png";
-    document.getElementById("team12_logo").src = "../images/team_logos_NFL/AFC_Teams/ravens.png";
-    document.getElementById("team13_logo").src = "../images/team_logos_NFL/AFC_Teams/steelers.png";
-    document.getElementById("team14_logo").src = "../images/team_logos_NFL/AFC_Teams/texans.png";
-    document.getElementById("team15_logo").src = "../images/team_logos_NFL/AFC_Teams/titans.png";
+   //Changes individual team logos left side 
+
+   
+
+    document.getElementById("team1_logo").href = "../product_pages/Football/nfl/shop_broncos.html"; 
+    document.getElementById("team1_logo2").src = "../images/team_logos_NFL/AFC_Teams/broncos.png";
+
+
+
+    //.src = "../images/team_logos_NFL/AFC_Teams/broncos.png"; 
+    document.getElementById("team2_logo").href = "../product_pages/Football/nfl/shop_chargers.html";                    
+    document.getElementById("team2_logo2").src = "../images/team_logos_NFL/AFC_Teams/chargers.png";
+
+    document.getElementById("team3_logo").href = "../product_pages/Football/nfl/shop_browns.html";
+    document.getElementById("team3_logo2").src = "../images/team_logos_NFL/AFC_Teams/browns.png";
+
+    document.getElementById("team4_logo").href = "../product_pages/Football/nfl/shop_bills.html";
+    document.getElementById("team4_logo2").src = "../images/team_logos_NFL/AFC_Teams/bills.png";
+
+    document.getElementById("team5_logo").href = "../product_pages/Football/nfl/shop_chiefs.html";
+    document.getElementById("team5_logo2").src = "../images/team_logos_NFL/AFC_Teams/chiefs.png";
+
+    document.getElementById("team6_logo").href = "../product_pages/Football/nfl/shop_colts.html";
+    document.getElementById("team6_logo2").src = "../images/team_logos_NFL/AFC_Teams/colts.png";
+
+    document.getElementById("team7_logo").href = "../product_pages/Football/nfl/shop_dolphins.html";
+    document.getElementById("team7_logo2").src = "../images/team_logos_NFL/AFC_Teams/dolphins.png";
+
+    document.getElementById("team8_logo").href = "../product_pages/Football/nfl/shop_jaguars.html";
+    document.getElementById("team8_logo2").src = "../images/team_logos_NFL/AFC_Teams/jaguars.png";
+
+    document.getElementById("team9_logo").href = "../product_pages/Football/nfl/shop_jets.html";
+    document.getElementById("team9_logo2").src = "../images/team_logos_NFL/AFC_Teams/jets.png";
+
+    document.getElementById("team10_logo").href = "../product_pages/Football/nfl/shop_patriots.html";
+    document.getElementById("team10_logo2").src = "../images/team_logos_NFL/AFC_Teams/patriots.png";
+
+    document.getElementById("team11_logo").href = "../product_pages/Football/nfl/shop_raiders.html";
+    document.getElementById("team11_logo2").src = "../images/team_logos_NFL/AFC_Teams/raiders.png";
+
+    document.getElementById("team12_logo").href = "../product_pages/Football/nfl/shop_ravens.html";
+    document.getElementById("team12_logo2").src = "../images/team_logos_NFL/AFC_Teams/ravens.png";
+
+    document.getElementById("team13_logo").href = "../product_pages/Football/nfl/shop_steelers.html";
+    document.getElementById("team13_logo2").src = "../images/team_logos_NFL/AFC_Teams/steelers.png";
+
+    document.getElementById("team14_logo").href = "../product_pages/Football/nfl/shop_texans.html";
+    document.getElementById("team14_logo2").src = "../images/team_logos_NFL/AFC_Teams/texans.png";
+
+    document.getElementById("team15_logo").href = "../product_pages/Football/nfl/shop_titans.html";    
+    document.getElementById("team15_logo2").src = "../images/team_logos_NFL/AFC_Teams/titans.png";
 
     //changes individual team logos right side
-    document.getElementById("team16_logo").src = "../images/team_logos_NFL/NFC_Teams/arizona-cardinals.png";
-    document.getElementById("team17_logo").src = "../images/team_logos_NFL/NFC_Teams/bears.gif";
-    document.getElementById("team18_logo").src = "../images/team_logos_NFL/NFC_Teams/buccaneers.png";
-    document.getElementById("team19_logo").src = "../images/team_logos_NFL/NFC_Teams/cowboys.png";
-    document.getElementById("team20_logo").src = "../images/team_logos_NFL/NFC_Teams/eagles.png";
-    document.getElementById("team21_logo").src = "../images/team_logos_NFL/NFC_Teams/falcons.png";
-    document.getElementById("team22_logo").src = "../images/team_logos_NFL/NFC_Teams/giants.png";
-    document.getElementById("team23_logo").src = "../images/team_logos_NFL/NFC_Teams/lions.png";
-    document.getElementById("team24_logo").src = "../images/team_logos_NFL/NFC_Teams/packers.png";
-    document.getElementById("team25_logo").src = "../images/team_logos_NFL/NFC_Teams/panthers.svg";
-    document.getElementById("team26_logo").src = "../images/team_logos_NFL/NFC_Teams/rams.png";
-    document.getElementById("team27_logo").src = "../images/team_logos_NFL/NFC_Teams/redskins.png";
-    document.getElementById("team28_logo").src = "../images/team_logos_NFL/NFC_Teams/saints.svg";
-    document.getElementById("team29_logo").src = "../images/team_logos_NFL/NFC_Teams/seahawks.png";
-    document.getElementById("team30_logo").src = "../images/team_logos_NFL/NFC_Teams/sf 49ers.png";
-    document.getElementById("team31_logo").src = "../images/team_logos_NFL/NFC_Teams/vikings.png";
+    document.getElementById("team16_logo2").src = "../images/team_logos_NFL/NFC_Teams/arizona-cardinals.png";
+    document.getElementById("team17_logo2").src = "../images/team_logos_NFL/NFC_Teams/bears.gif";
+    document.getElementById("team18_logo2").src = "../images/team_logos_NFL/NFC_Teams/buccaneers.png";
+    document.getElementById("team19_logo2").src = "../images/team_logos_NFL/NFC_Teams/cowboys.png";
+    document.getElementById("team20_logo2").src = "../images/team_logos_NFL/NFC_Teams/eagles.png";
+    document.getElementById("team21_logo2").src = "../images/team_logos_NFL/NFC_Teams/falcons.png";
+    document.getElementById("team22_logo2").src = "../images/team_logos_NFL/NFC_Teams/giants.png";
+    document.getElementById("team23_logo2").src = "../images/team_logos_NFL/NFC_Teams/lions.png";
+    document.getElementById("team24_logo2").src = "../images/team_logos_NFL/NFC_Teams/packers.png";
+    document.getElementById("team25_logo2").src = "../images/team_logos_NFL/NFC_Teams/panthers.svg";
+    document.getElementById("team26_logo2").src = "../images/team_logos_NFL/NFC_Teams/rams.png";
+    document.getElementById("team27_logo2").src = "../images/team_logos_NFL/NFC_Teams/redskins.png";
+    document.getElementById("team28_logo2").src = "../images/team_logos_NFL/NFC_Teams/saints.svg";
+    document.getElementById("team29_logo2").src = "../images/team_logos_NFL/NFC_Teams/seahawks.png";
+    document.getElementById("team30_logo2").src = "../images/team_logos_NFL/NFC_Teams/sf 49ers.png";
+    document.getElementById("team31_logo2").src = "../images/team_logos_NFL/NFC_Teams/vikings.png";
 
 
     }
