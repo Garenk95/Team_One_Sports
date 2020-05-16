@@ -31,66 +31,10 @@ let products = [
 		price: 12.99,
 		inCart: 0
 	}
-	{
-		name: "49ers beanie",
-		tag: "49ers beanie",
-		price: 19.99,
-		inCart: 0
-	}
-	{
-		name: "Hawks Basketball",
-		tag: "Hawks Basketball",
-		price: 12.99,
-		inCart: 0
-	}
-	{
-		name: "Hawks Basketball",
-		tag: "Hawks Basketball",
-		price: 12.99,
-		inCart: 0
-	}
-	{
-		name: "Hawks Basketball",
-		tag: "Hawks Basketball",
-		price: 12.99,
-		inCart: 0
-	}
-	{
-		name: "Hawks Basketball",
-		tag: "Hawks Basketball",
-		price: 12.99,
-		inCart: 0
-	}
-	{
-		name: "Hawks Basketball",
-		tag: "Hawks Basketball",
-		price: 12.99,
-		inCart: 0
-	}
-	{
-		name: "Hawks Basketball",
-		tag: "Hawks Basketball",
-		price: 12.99,
-		inCart: 0
-	}
-	{
-		name: "Hawks Basketball",
-		tag: "Hawks Basketball",
-		price: 12.99,
-		inCart: 0
-	}
-	{
-		name: "Hawks Basketball",
-		tag: "Hawks Basketball",
-		price: 12.99,
-		inCart: 0
-	}
-	{
-		name: "Hawks Basketball",
-		tag: "Hawks Basketball",
-		price: 12.99,
-		inCart: 0
-	}
+
+	
+	
+	
 
 ];
 
