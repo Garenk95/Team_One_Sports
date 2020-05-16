@@ -107,6 +107,7 @@ function create_NFL() {
     document.getElementById("team19_logo").href = "../product_pages/Football/nfl/shop.cowboys.html";    
     document.getElementById("team19_logo2").src = "../images/team_logos_NFL/NFC_Teams/cowboys.png";
 
+    document.getElementById("team20_logo").href = "../product_pages/Football/nfl/shop.eagles.html";    
     document.getElementById("team20_logo2").src = "../images/team_logos_NFL/NFC_Teams/eagles.png";
 
     document.getElementById("team21_logo2").src = "../images/team_logos_NFL/NFC_Teams/falcons.png";
