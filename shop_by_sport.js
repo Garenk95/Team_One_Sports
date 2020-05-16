@@ -37,8 +37,8 @@ function create_NFL() {
     //changes league logo at top of page
     document.getElementById("league_logo").src = "../images/StoreFrontLogos/NFL.png";
     //changes the conference photos
-    document.getElementById("conference_one_logo").src = "../images/team_logos_NFL/NFC.png"; 
-    document.getElementById("conference_two_logo").src = "../images/team_logos_NFL/AFC.png";
+    document.getElementById("conference_one_logo").src = "../images/team_logos_NFL/AFC.png";
+    document.getElementById("conference_two_logo").src = "../images/team_logos_NFL/NFC.png"; 
 
    //Changes individual team logos left side 
 
@@ -92,13 +92,19 @@ function create_NFL() {
     document.getElementById("team15_logo").href = "../product_pages/Football/nfl/shop_titans.html";    
     document.getElementById("team15_logo2").src = "../images/team_logos_NFL/AFC_Teams/titans.png";
 
+
+
     //changes individual team logos right side
+    document.getElementById("team16_logo").href = "../product_pages/Football/nfl/shop_ArizonaCardinals.html";    
     document.getElementById("team16_logo2").src = "../images/team_logos_NFL/NFC_Teams/arizona-cardinals.png";
 
+    document.getElementById("team17_logo").href = "../product_pages/Football/nfl/shop_bears.html";    
     document.getElementById("team17_logo2").src = "../images/team_logos_NFL/NFC_Teams/bears.gif";
 
+    document.getElementById("team18_logo").href = "../product_pages/Football/nfl/shop.buccaneers.html";    
     document.getElementById("team18_logo2").src = "../images/team_logos_NFL/NFC_Teams/buccaneers.png";
 
+    document.getElementById("team19_logo").href = "../product_pages/Football/nfl/shop.cowboys.html";    
     document.getElementById("team19_logo2").src = "../images/team_logos_NFL/NFC_Teams/cowboys.png";
 
     document.getElementById("team20_logo2").src = "../images/team_logos_NFL/NFC_Teams/eagles.png";
