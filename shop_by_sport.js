@@ -150,9 +150,15 @@ function create_MLB() {
     document.getElementById("team2_logo").href = "../product_pages/Baseball/shop_braves.html";    
     document.getElementById("team2_logo2").src = "../images/team_logos_MLB/National_League_Teams/atlanta-braves-logo.png";
 
-    document.getElementById("team3_logo").src = "../images/team_logos_MLB/National_League_Teams/Chicago_Cubs_logo.svg.png";
-    document.getElementById("team4_logo").src = "../images/team_logos_MLB/National_League_Teams/Cincinnati_Reds_Logo.svg.png";
-    document.getElementById("team5_logo").src = "../images/team_logos_MLB/National_League_Teams/colorado-rockies-vector-logo.png";
+    document.getElementById("team3_logo").href = "../product_pages/Baseball/shop_cubs.html";    
+    document.getElementById("team3_logo2").src = "../images/team_logos_MLB/National_League_Teams/Chicago_Cubs_logo.svg.png";
+
+    document.getElementById("team4_logo").href = "../product_pages/Baseball/shop_reds.html";    
+    document.getElementById("team4_logo2").src = "../images/team_logos_MLB/National_League_Teams/Cincinnati_Reds_Logo.svg.png";
+
+    document.getElementById("team5_logo").href = "../product_pages/Baseball/shop_rockies.html";    
+    document.getElementById("team5_logo2").src = "../images/team_logos_MLB/National_League_Teams/colorado-rockies-vector-logo.png";
+
     document.getElementById("team6_logo").src = "../images/team_logos_MLB/National_League_Teams/LA Dodgers.png";
     document.getElementById("team7_logo").src = "../images/team_logos_MLB/National_League_Teams/Marlins_team_logo.svg";
     document.getElementById("team8_logo").src = "../images/team_logos_MLB/National_League_Teams/milwaukee-brewers-logo.png";
