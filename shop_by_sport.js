@@ -144,8 +144,12 @@ function create_MLB() {
     document.getElementById("conference_two_logo").src = "../images/team_logos_MLB/American_League.png";
 
     //Changes individual team logos left side 
-    document.getElementById("team1_logo").src = "../images/team_logos_MLB/National_League_Teams/arizona-diamondbacks.png";
-    document.getElementById("team2_logo").src = "../images/team_logos_MLB/National_League_Teams/atlanta-braves-logo.png";
+    document.getElementById("team1_logo").href = "../product_pages/Baseball/shop_diamondbacks.html";    
+    document.getElementById("team1_logo2").src = "../images/team_logos_MLB/National_League_Teams/arizona-diamondbacks.png";
+
+    document.getElementById("team2_logo").href = "../product_pages/Baseball/shop_braves.html";    
+    document.getElementById("team2_logo2").src = "../images/team_logos_MLB/National_League_Teams/atlanta-braves-logo.png";
+
     document.getElementById("team3_logo").src = "../images/team_logos_MLB/National_League_Teams/Chicago_Cubs_logo.svg.png";
     document.getElementById("team4_logo").src = "../images/team_logos_MLB/National_League_Teams/Cincinnati_Reds_Logo.svg.png";
     document.getElementById("team5_logo").src = "../images/team_logos_MLB/National_League_Teams/colorado-rockies-vector-logo.png";
