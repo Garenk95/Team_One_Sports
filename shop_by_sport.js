@@ -159,19 +159,40 @@ function create_MLB() {
     document.getElementById("team5_logo").href = "../product_pages/Baseball/shop_rockies.html";    
     document.getElementById("team5_logo2").src = "../images/team_logos_MLB/National_League_Teams/colorado-rockies-vector-logo.png";
 
-    document.getElementById("team6_logo").src = "../images/team_logos_MLB/National_League_Teams/LA Dodgers.png";
-    document.getElementById("team7_logo").src = "../images/team_logos_MLB/National_League_Teams/Marlins_team_logo.svg";
-    document.getElementById("team8_logo").src = "../images/team_logos_MLB/National_League_Teams/milwaukee-brewers-logo.png";
-    document.getElementById("team9_logo").src = "../images/team_logos_MLB/National_League_Teams/new-york-mets-logo.png";
-    document.getElementById("team10_logo").src = "../images/team_logos_MLB/National_League_Teams/phillies.svg";
-    document.getElementById("team11_logo").src = "../images/team_logos_MLB/National_League_Teams/pirates.png";
-    document.getElementById("team12_logo").src = "../images/team_logos_MLB/National_League_Teams/san-diego-padres-2.svg";
-    document.getElementById("team13_logo").src = "../images/team_logos_MLB/National_League_Teams/san-francisco-giants-vector-logo.png";
-    document.getElementById("team14_logo").src = "../images/team_logos_MLB/National_League_Teams/st-louis-cardinals-logo.png";
+    document.getElementById("team6_logo").href = "../product_pages/Baseball/shop_dodgers.html";    
+    document.getElementById("team6_logo2").src = "../images/team_logos_MLB/National_League_Teams/LA Dodgers.png";
+
+    document.getElementById("team7_logo").href = "../product_pages/Baseball/shop_marlins.html";    
+    document.getElementById("team7_logo2").src = "../images/team_logos_MLB/National_League_Teams/Marlins_team_logo.svg";
+
+    document.getElementById("team8_logo").href = "../product_pages/Baseball/shop_brewers.html";      
+    document.getElementById("team8_logo2").src = "../images/team_logos_MLB/National_League_Teams/milwaukee-brewers-logo.png";
+
+    document.getElementById("team9_logo").href = "../product_pages/Baseball/shop_mets.html";      
+    document.getElementById("team9_logo2").src = "../images/team_logos_MLB/National_League_Teams/new-york-mets-logo.png";
+
+    document.getElementById("team10_logo").href = "../product_pages/Baseball/shop_phillies.html";      
+    document.getElementById("team10_logo2").src = "../images/team_logos_MLB/National_League_Teams/phillies.svg";
+
+    document.getElementById("team11_logo").href = "../product_pages/Baseball/shop_pirates.html";      
+    document.getElementById("team11_logo2").src = "../images/team_logos_MLB/National_League_Teams/pirates.png";
+
+    document.getElementById("team12_logo").href = "../product_pages/Baseball/shop_padres.html";      
+    document.getElementById("team12_logo2").src = "../images/team_logos_MLB/National_League_Teams/san-diego-padres-2.svg";
+
+    document.getElementById("team13_logo").href = "../product_pages/Baseball/shop_sfgiants.html";      
+    document.getElementById("team13_logo2").src = "../images/team_logos_MLB/National_League_Teams/san-francisco-giants-vector-logo.png";
+
+    document.getElementById("team14_logo").href = "../product_pages/Baseball/shop_cardinals.html";      
+    document.getElementById("team14_logo2").src = "../images/team_logos_MLB/National_League_Teams/st-louis-cardinals-logo.png";
+
     document.getElementById("team15_logo").src = "../images/team_logos_MLB/National_League_Teams/Washington_Nationals_logo.svg.png";
 
     //changes individual team logos right side
+
     document.getElementById("team16_logo").src = "../images/team_logos_MLB/American_League_Teams/anaheim-angels.svg";
+
+
     document.getElementById("team17_logo").src = "../images/team_logos_MLB/American_League_Teams/boston-red-sox.svg";
     document.getElementById("team18_logo").src = "../images/team_logos_MLB/American_League_Teams/Chicago_White_Sox.png";
     document.getElementById("team19_logo").src = "../images/team_logos_MLB/American_League_Teams/Detroit_Tigers.svg.png";
