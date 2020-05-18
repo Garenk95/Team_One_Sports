@@ -101,36 +101,46 @@ function create_NFL() {
     document.getElementById("team17_logo").href = "../product_pages/Football/nfl/shop_bears.html";    
     document.getElementById("team17_logo2").src = "../images/team_logos_NFL/NFC_Teams/bears.gif";
 
-    document.getElementById("team18_logo").href = "../product_pages/Football/nfl/shop.buccaneers.html";    
+    document.getElementById("team18_logo").href = "../product_pages/Football/nfl/shop_buccaneers.html";    
     document.getElementById("team18_logo2").src = "../images/team_logos_NFL/NFC_Teams/buccaneers.png";
 
-    document.getElementById("team19_logo").href = "../product_pages/Football/nfl/shop.cowboys.html";    
+    document.getElementById("team19_logo").href = "../product_pages/Football/nfl/shop_cowboys.html";    
     document.getElementById("team19_logo2").src = "../images/team_logos_NFL/NFC_Teams/cowboys.png";
 
-    document.getElementById("team20_logo").href = "../product_pages/Football/nfl/shop.eagles.html";    
+    document.getElementById("team20_logo").href = "../product_pages/Football/nfl/shop_eagles.html";    
     document.getElementById("team20_logo2").src = "../images/team_logos_NFL/NFC_Teams/eagles.png";
 
+    document.getElementById("team21_logo").href = "../product_pages/Football/nfl/shop_falcons.html";    
     document.getElementById("team21_logo2").src = "../images/team_logos_NFL/NFC_Teams/falcons.png";
 
+    document.getElementById("team22_logo").href = "../product_pages/Football/nfl/shop_giants.html";    
     document.getElementById("team22_logo2").src = "../images/team_logos_NFL/NFC_Teams/giants.png";
 
+    document.getElementById("team23_logo").href = "../product_pages/Football/nfl/shop_lions.html";    
     document.getElementById("team23_logo2").src = "../images/team_logos_NFL/NFC_Teams/lions.png";
 
+    document.getElementById("team24_logo").href = "../product_pages/Football/nfl/shop_packers.html";    
     document.getElementById("team24_logo2").src = "../images/team_logos_NFL/NFC_Teams/packers.png";
 
+    document.getElementById("team25_logo").href = "../product_pages/Football/nfl/shop_panthers.html";    
     document.getElementById("team25_logo2").src = "../images/team_logos_NFL/NFC_Teams/panthers.svg";
 
+    document.getElementById("team26_logo").href = "../product_pages/Football/nfl/shop_rams.html";    
     document.getElementById("team26_logo2").src = "../images/team_logos_NFL/NFC_Teams/rams.png";
 
+    document.getElementById("team27_logo").href = "../product_pages/Football/nfl/shop_redskins.html";    
     document.getElementById("team27_logo2").src = "../images/team_logos_NFL/NFC_Teams/redskins.png";
 
+    document.getElementById("team28_logo").href = "../product_pages/Football/nfl/shop_saints.html";    
     document.getElementById("team28_logo2").src = "../images/team_logos_NFL/NFC_Teams/saints.svg";
 
+    document.getElementById("team29_logo").href = "../product_pages/Football/nfl/shop_seahawks.html";    
     document.getElementById("team29_logo2").src = "../images/team_logos_NFL/NFC_Teams/seahawks.png";
 
     document.getElementById("team30_logo").href = "../product_pages/Football/nfl/shop_sf_49ers.html";    
     document.getElementById("team30_logo2").src = "../images/team_logos_NFL/NFC_Teams/sf 49ers.png";
 
+    document.getElementById("team31_logo").href = "../product_pages/Football/nfl/shop_vikings.html";    
     document.getElementById("team31_logo2").src = "../images/team_logos_NFL/NFC_Teams/vikings.png";
 
 
