@@ -186,27 +186,57 @@ function create_MLB() {
     document.getElementById("team14_logo").href = "../product_pages/Baseball/shop_cardinals.html";      
     document.getElementById("team14_logo2").src = "../images/team_logos_MLB/National_League_Teams/st-louis-cardinals-logo.png";
 
-    document.getElementById("team15_logo").src = "../images/team_logos_MLB/National_League_Teams/Washington_Nationals_logo.svg.png";
+    document.getElementById("team15_logo").href = "../product_pages/Baseball/shop_nationals.html";      
+    document.getElementById("team15_logo2").src = "../images/team_logos_MLB/National_League_Teams/Washington_Nationals_logo.svg.png";
 
     //changes individual team logos right side
+    document.getElementById("team16_logo").href = "../product_pages/Baseball/shop_angels.html";      
+    document.getElementById("team16_logo2").src = "../images/team_logos_MLB/American_League_Teams/anaheim-angels.svg";
 
-    document.getElementById("team16_logo").src = "../images/team_logos_MLB/American_League_Teams/anaheim-angels.svg";
+    document.getElementById("team17_logo").href = "../product_pages/Baseball/shop_redsox.html";      
+    document.getElementById("team17_logo2").src = "../images/team_logos_MLB/American_League_Teams/boston-red-sox.svg";
+
+    document.getElementById("team18_logo").href = "../product_pages/Baseball/shop_whitesox.html";      
+    document.getElementById("team18_logo2").src = "../images/team_logos_MLB/American_League_Teams/Chicago_White_Sox.png";
+
+    document.getElementById("team19_logo").href = "../product_pages/Baseball/shop_tigers.html";      
+    document.getElementById("team19_logo2").src = "../images/team_logos_MLB/American_League_Teams/Detroit_Tigers.svg.png";
+
+    document.getElementById("team20_logo").href = "../product_pages/Baseball/shop_astros.html";      
+    document.getElementById("team20_logo2").src = "../images/team_logos_MLB/American_League_Teams/Houston-Astros-Logo.svg.png";
 
 
-    document.getElementById("team17_logo").src = "../images/team_logos_MLB/American_League_Teams/boston-red-sox.svg";
-    document.getElementById("team18_logo").src = "../images/team_logos_MLB/American_League_Teams/Chicago_White_Sox.png";
-    document.getElementById("team19_logo").src = "../images/team_logos_MLB/American_League_Teams/Detroit_Tigers.svg.png";
-    document.getElementById("team20_logo").src = "../images/team_logos_MLB/American_League_Teams/Houston-Astros-Logo.svg.png";
-    document.getElementById("team21_logo").src = "../images/team_logos_MLB/American_League_Teams/kansas-city-royals.png";
-    document.getElementById("team22_logo").src = "../images/team_logos_MLB/American_League_Teams/minnesota-twins.png";
-    document.getElementById("team23_logo").src = "../images/team_logos_MLB/American_League_Teams/new-york-yankees-logo-transparent.png";
-    document.getElementById("team24_logo").src = "../images/team_logos_MLB/American_League_Teams/Oakland_A's_logo.svg.png";
-    document.getElementById("team25_logo").src = "../images/team_logos_MLB/American_League_Teams/orials.png";
-    document.getElementById("team26_logo").src = "../images/team_logos_MLB/American_League_Teams/Seattle_Mariners.svg.png";
-    document.getElementById("team27_logo").src = "../images/team_logos_MLB/American_League_Teams/tampa-bay-rays-logo-transparent.png";
-    document.getElementById("team28_logo").src = "../images/team_logos_MLB/American_League_Teams/Texas_Rangers.svg.png";
-    document.getElementById("team29_logo").src = "../images/team_logos_MLB/American_League_Teams/toronto-blue-jays-logo.png";
-    document.getElementById("team30_logo").src = "../images/team_logos_MLB/American_League_Teams/cleveland-indians-cap-logo.png";
+    document.getElementById("team21_logo").href = "../product_pages/Baseball/shop_royals.html";      
+    document.getElementById("team21_logo2").src = "../images/team_logos_MLB/American_League_Teams/kansas-city-royals.png";
+
+    document.getElementById("team22_logo").href = "../product_pages/Baseball/shop_twins.html";      
+    document.getElementById("team22_logo2").src = "../images/team_logos_MLB/American_League_Teams/minnesota-twins.png";
+
+    document.getElementById("team23_logo").href = "../product_pages/Baseball/shop_yankees.html";      
+    document.getElementById("team23_logo2").src = "../images/team_logos_MLB/American_League_Teams/new-york-yankees-logo-transparent.png";
+
+    document.getElementById("team24_logo").href = "../product_pages/Baseball/shop_Athletics.html";      
+    document.getElementById("team24_logo2").src = "../images/team_logos_MLB/American_League_Teams/Oakland_A's_logo.svg.png";
+
+    document.getElementById("team25_logo").href = "../product_pages/Baseball/shop_orials.html";      
+    document.getElementById("team25_logo2").src = "../images/team_logos_MLB/American_League_Teams/orials.png";
+
+    document.getElementById("team26_logo").href = "../product_pages/Baseball/shop_Mariners.html";      
+    document.getElementById("team26_logo2").src = "../images/team_logos_MLB/American_League_Teams/Seattle_Mariners.svg.png";
+
+    document.getElementById("team27_logo").href = "../product_pages/Baseball/shop_rays.html";      
+    document.getElementById("team27_logo2").src = "../images/team_logos_MLB/American_League_Teams/tampa-bay-rays-logo-transparent.png";
+
+    document.getElementById("team28_logo").href = "../product_pages/Baseball/shop_rangers.html";      
+    document.getElementById("team28_logo2").src = "../images/team_logos_MLB/American_League_Teams/Texas_Rangers.svg.png";
+
+    document.getElementById("team29_logo").href = "../product_pages/Baseball/shop_bluejays.html";      
+    document.getElementById("team29_logo2").src = "../images/team_logos_MLB/American_League_Teams/toronto-blue-jays-logo.png";
+
+    document.getElementById("team30_logo").href = "../product_pages/Baseball/shop_indians.html";      
+    document.getElementById("team30_logo2").src = "../images/team_logos_MLB/American_League_Teams/cleveland-indians-cap-logo.png";
+
+    document.getElementById("team31_logo").href = "../product_pages/Baseball/shop_royals.html";      
     document.getElementById("team31_logo").src = "../images/team_logos_MLB/American_League_Teams/cleveland-indians-cap-logo.png";
 
 
